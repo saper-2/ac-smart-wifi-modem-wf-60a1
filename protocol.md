@@ -7,6 +7,7 @@ For now I have powered up the modem from bench PSU without any wifi module nor c
 Using **Open Bench Logic Sniffer** (OLS) I have managed to get the baudrate: I used two of those "pulses followed by long 0" whose became after doing a bit of math to be 0x00.
 
 The port baudrate is: **4800** bps
+
 The 0x00 byte have:
 ```
 T(0x00)=2,08ms , so:
